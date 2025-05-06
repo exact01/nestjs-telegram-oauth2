@@ -1,6 +1,6 @@
 {
   "name": "@exact-team/nestjs-telegram-oauth2",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "license": "ISC",
@@ -22,7 +22,7 @@
     "@nestjs/core": "^11.1.0"
   },
   "peerDependencies": {
-    "@exact-team/telegram-oauth2": ">=0.0.5"
+    "@exact-team/telegram-oauth2": ">=0.0.6"
   },
   "author": "exact01",
   "keywords": [
