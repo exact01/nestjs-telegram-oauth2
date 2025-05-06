@@ -1,6 +1,5 @@
 # NestJS Telegram OAuth2 SDK Module
 
-![GitHub top language](https://img.shields.io/github/languages/top/exact01/nestjs-telegram-oauth2)
 ![GitHub Repo stars](https://img.shields.io/github/stars/exact01/nestjs-telegram-oauth2)
 
 ![npm version](https://img.shields.io/npm/v/@exact-team/nestjs-telegram-oauth2)
