@@ -75,8 +75,8 @@ import { TelegramOauth2NestjsModule } from '@exact-team/nestjs-telegram-oauth2';
     TelegramOauth2NestjsModule.forRootAsync({
       imports: [ConfigModule],
       useFactory: (config: ConfigService) => ({
-        botToken: config.get<string>('TELEGRAM_BOT_TOKEN'),
-        validUntil: Number(config.get<string>('TELEGRAM_VALID_UNTIL_SECONDS')),
+        botToken: config.getOrThrow<string>('TELEGRAM_BOT_TOKEN'),
+        validUntil: Number(config.getOrThrow<string>('TELEGRAM_VALID_UNTIL_SECONDS')),
       }),
       inject: [ConfigService],
     }),
