@@ -19,7 +19,7 @@
 ## 📦 Установка
 
 ```bash
-npm install @exact-team/nestjs-telegram-oauth2
+npm install @exact-team/nestjs-telegram-oauth2 && npm i @exact-team/telegram-oauth2
 ```
 
 ## ⚙️ Подготовка
@@ -29,7 +29,9 @@ npm install @exact-team/nestjs-telegram-oauth2
 3. Извлеките `botId` — часть токена до `:` (напр., для `1234567890:ABC...` это `1234567890`).
 4. Сохраните `botId` для использования на фронтенде.
 
----
+## ⚙️ Подробнее о @exact-team/telegram-oauth2
+
+[Перейти](https://github.com/exact01/telegram-oauth2)
 
 ## 🚀 Основные возможности
 
