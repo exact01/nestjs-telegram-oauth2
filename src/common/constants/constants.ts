@@ -1,0 +1,1 @@
+export const MODULE_NAME = 'TELEGRAM_OAUTH2_NESTJS';
